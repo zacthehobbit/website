@@ -111,8 +111,8 @@ export default function ContactPage({ location }: { location: Location }) {
 
       <Paragraph>
         Feel free to get in touch if you want a chat. Pop me an email at{" "}
-        <a href="mailto:zachthehobbit@zachary.com?subject=Hello%20Pav!">
-          pav@zachary.com
+        <a href="mailto:zachthehobbit@zachary.com?subject=Hello%20Zac!">
+        zachthehobbit@zachary.com
         </a>{" "}
         or come say hello on social media.
       </Paragraph>
