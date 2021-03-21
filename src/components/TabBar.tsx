@@ -5,7 +5,6 @@ import { styled } from "linaria/react"
 import { ReactComponent as HomeIcon } from "../images/icons/home.svg"
 import { ReactComponent as AboutIcon } from "../images/icons/about.svg"
 import { ReactComponent as BlogIcon } from "../images/icons/blog.svg"
-import { ReactComponent as ProjectsIcon } from "../images/icons/projects.svg"
 import { ReactComponent as ContactIcon } from "../images/icons/contact.svg"
 
 const Container = styled.nav`
@@ -118,11 +117,6 @@ export default function TabBar() {
       <Tab to="/blog" activeClassName="active" partiallyActive={true}>
         <BlogIcon aria-hidden="true" />
         <TabLabel>Blog</TabLabel>
-      </Tab>
-
-      <Tab to="/projects" activeClassName="active" partiallyActive={true}>
-        <ProjectsIcon aria-hidden="true" />
-        <TabLabel>Projects</TabLabel>
       </Tab>
 
       <Tab to="/contact" activeClassName="active" partiallyActive={true}>

@@ -5,7 +5,6 @@ import { Link } from "gatsby"
 import { ReactComponent as HomeIcon } from "../images/icons/home.svg"
 import { ReactComponent as AboutIcon } from "../images/icons/about.svg"
 import { ReactComponent as BlogIcon } from "../images/icons/blog.svg"
-import { ReactComponent as ProjectsIcon } from "../images/icons/projects.svg"
 import { ReactComponent as ContactIcon } from "../images/icons/contact.svg"
 import { ReactComponent as IconSvg } from "../images/favicons/favicon.svg"
 
@@ -147,16 +146,6 @@ export default function Header() {
         >
           <BlogIcon aria-hidden="true" />
           <NavItemLabel>Blog</NavItemLabel>
-        </NavItem>
-
-        <NavItem
-          to="/projects"
-          activeClassName="active"
-          partiallyActive={true}
-          data-clickable="default"
-        >
-          <ProjectsIcon aria-hidden="true" />
-          <NavItemLabel>Projects</NavItemLabel>
         </NavItem>
 
         <NavItem
