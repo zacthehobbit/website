@@ -260,9 +260,9 @@ export default function IndexPage({ data }) {
             height={280}
             loading="eager"
           />
-          <Title>Hey, I'm Zac</Title>
+          <Title>Zac the Hobbit</Title>
           <Description>
-            I'm from the UK
+            A University of Toronto Alumn currently studying at University of Bristol
           </Description>
           <SocialList />
         </Intro>

@@ -15,7 +15,7 @@ const CoverImageContainer = styled.div`
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  max-width: 50%;
 
   @media (min-width: 700px) {
     width: 100%;
