@@ -97,7 +97,7 @@ export default function ContactPage({ location }: { location: Location }) {
           I got your message, I'll get back to you as soon as I can!
         </Paragraph>
         <HomeLink to="/" data-clickable="default">
-          Go To Home
+          Go Home
         </HomeLink>
       </SuccessContainer>
     )

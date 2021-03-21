@@ -42,15 +42,22 @@ export default function NotFoundPage() {
   return (
     <Container>
       <Seo title="404" />
-      <Title>Page Not Found</Title>
+      <Title>Lost in Space</Title>
       <Paragraph>
-        There's nothing here, perhaps you'll find what you're looking for back
-        home.
+      All that is gold does not glitter,
+      </Paragraph>
+      <Paragraph>
+      Not all those who wander are lost;
+      </Paragraph>
+      <Paragraph>
+      The old that is strong does not wither,
+      </Paragraph>
+      <Paragraph>
+      Deep roots are not reached by the frost.
       </Paragraph>
       <HomeLink to="/" data-clickable="default">
-        Go To Home
+        Go Home
       </HomeLink>
-      .
     </Container>
   )
 }
