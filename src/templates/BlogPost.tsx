@@ -52,7 +52,7 @@ const Container = styled.article`
   margin: 0 auto;
   padding: var(--space-m);
   width: 100%;
-  max-width: 60ch;
+  max-width: 80%;
 
   font-size: var(--font-m);
   background: var(--background-color);

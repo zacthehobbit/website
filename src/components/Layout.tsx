@@ -19,10 +19,7 @@ import fontBold from "../fonts/Orkney-Bold.woff2"
 import faviconSvg from "../images/favicons/favicon.svg"
 import favicon16 from "../images/favicons/favicon-16.png"
 import favicon32 from "../images/favicons/favicon-32.png"
-import favicon48 from "../images/favicons/favicon-48.png"
 
-import backgroundLight from "../images/general/background-light.svg"
-import backgroundDark from "../images/general/background-dark.svg"
 import { Header, TabBar } from "../components"
 
 export const globals = css`
@@ -93,7 +90,6 @@ export const globals = css`
       font-family: var(--orkney-font-family);
       color: var(--default-text-color);
       background-color: var(--background-color);
-      background-image: url("${backgroundLight}");
       background-size: 50px;
     }
 
@@ -215,8 +211,8 @@ export const globals = css`
     }
 
     :root {
-      --primary-color: #ff8767;
-      --primary-text-color: #da3d00;
+      --primary-color: #3F88C5;
+      --primary-text-color: #032B43;
       --default-text-color: #1b1b1b;
       --secondary-text-color: #646464;
       --background-color: #fffffc;
@@ -253,7 +249,7 @@ export const globals = css`
 
     @media (prefers-color-scheme: dark) {
       :root {
-        --primary-text-color: #ff8767;
+        --primary-text-color: #3F88C5;
         --default-text-color: rgba(255, 255, 255, 0.9);
         --secondary-text-color: rgba(255, 255, 255, 0.7);
         --background-color: #232323;
@@ -265,10 +261,6 @@ export const globals = css`
 
       * {
         box-shadow: none;
-      }
-
-      body {
-        background-image: url("${backgroundDark}");
       }
     }
   }
@@ -348,7 +340,6 @@ export default function Layout(props: Props) {
         <link rel="icon" type="image/svg+xml" href={faviconSvg} />
         <link rel="icon" type="image/png" sizes="16x16" href={favicon16} />
         <link rel="icon" type="image/png" sizes="32x32" href={favicon32} />
-        <link rel="icon" type="image/png" sizes="48x48" href={favicon48} />
 
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
       </Helmet>
