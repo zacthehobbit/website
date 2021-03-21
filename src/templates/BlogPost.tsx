@@ -9,9 +9,13 @@ import { BlogPostTransition } from "../components/Layout"
 import { Seo, CodeBlock } from "../components"
 
 const CoverImageContainer = styled.div`
-  width: calc(100% + var(--space-m) + var(--space-m));
   margin: calc(-1 * var(--space-m));
   margin-bottom: 0;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 
   @media (min-width: 700px) {
     width: 100%;
@@ -20,7 +24,7 @@ const CoverImageContainer = styled.div`
 `
 
 const CoverImage = styled(Image)`
-  width: 80ch;
+  width: 100%;
   height: 0;
   padding-bottom: 60%;
   transform-origin: top left;
