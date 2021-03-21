@@ -87,6 +87,7 @@ const Title = styled.h1`
   grid-area: title;
   width: 100%;
   font-size: 4.8rem;
+  color: rgb(232, 230, 227);
 `
 
 const Description = styled.p`
@@ -95,6 +96,7 @@ const Description = styled.p`
   font-weight: 400;
   line-height: 2.8rem;
   max-width: 30ch;
+  color: rgb(232, 230, 227);
 
   @media (min-width: 600px) {
     max-width: 35ch;

@@ -24,7 +24,7 @@ const Social = styled.a`
   padding: var(--space-xs);
   border-radius: 50%;
   display: inline-flex;
-
+  color: rgb(232, 230, 227);
   svg {
     width: 3.2rem;
     height: 3.2rem;
