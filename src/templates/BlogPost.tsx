@@ -9,13 +9,9 @@ import { BlogPostTransition } from "../components/Layout"
 import { Seo, CodeBlock } from "../components"
 
 const CoverImageContainer = styled.div`
+  width: calc(100% + var(--space-m) + var(--space-m));
   margin: calc(-1 * var(--space-m));
   margin-bottom: 0;
-
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 50%;
 
   @media (min-width: 700px) {
     width: 100%;
@@ -181,14 +177,14 @@ export default function BlogPost({ data: { mdx } }) {
         image={mdx.frontmatter.coverImage.childImageSharp.resize.src}
       />
 
-      <CoverImageContainer>
+      {/* <CoverImageContainer>
         <CoverImage
           ref={coverImageRef}
           fluid={mdx.frontmatter.coverImage.childImageSharp.fluid}
           alt={mdx.frontmatter.coverImageAlt}
           loading="eager"
         />
-      </CoverImageContainer>
+      </CoverImageContainer> */}
 
       <Title>{mdx.frontmatter.title}</Title>
       <Meta>

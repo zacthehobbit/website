@@ -110,7 +110,7 @@ export default function ContactPage({ location }: { location: Location }) {
       <Title>Contact</Title>
 
       <Paragraph>
-        Feel free to get in touch if you want a chat. Pop me an email at{" "}
+        Get in touch with me via an email at{" "}
         <a href="mailto:zachthehobbit@zachary.com?subject=Hello%20Zac!">
         zachthehobbit@zachary.com
         </a>{" "}
@@ -126,7 +126,7 @@ export default function ContactPage({ location }: { location: Location }) {
         data-netlify-honeypot="bot-field"
         action="/contact?success=true"
       >
-        <Input label="Name" placeholder="Michael Lee" required={true} />
+        <Input label="Name" placeholder="John Smith" required={true} />
 
         <Input
           label="Email"

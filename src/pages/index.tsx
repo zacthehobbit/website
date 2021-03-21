@@ -17,7 +17,7 @@ const Container = styled.article`
 `
 
 const Hero = styled.div`
-  min-height: calc(100vh - 300px);
+  min-height: calc(50vh - 0px);
   display: grid;
   justify-items: center;
   align-items: center;
@@ -267,8 +267,8 @@ export default function IndexPage({ data }) {
           <SocialList />
         </Intro>
 
-        <IntroBackground />
-        <IntroBackgroundSmall />
+        {/* <IntroBackground />
+        <IntroBackgroundSmall /> */}
       </Hero>
 
       <BlogPosts>
