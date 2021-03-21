@@ -41,7 +41,7 @@ const Container = styled((props) => <Link {...props} />)`
 `
 
 const CoverPhoto = styled((props) => <Image {...props} />)`
-  max-width: 80ch;
+  max-width: 100%;
   height: 0;
   padding-bottom: 60%;
   object-fit: cover;

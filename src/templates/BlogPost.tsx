@@ -20,7 +20,7 @@ const CoverImageContainer = styled.div`
 `
 
 const CoverImage = styled(Image)`
-  width: 100%;
+  width: 80ch;
   height: 0;
   padding-bottom: 60%;
   transform-origin: top left;
