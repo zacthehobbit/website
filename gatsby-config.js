@@ -2,9 +2,9 @@ require("dotenv").config()
 
 module.exports = {
     siteMetadata: {
-        title: `Zachary Binhaji`,
-        description: `Zach is the best of blood`,
-        author: `Zachary Binhaji <zachary@zachary.com>`,
+        title: `Zac the Hobbit`,
+        description: `Zac is the best of blood`,
+        author: `Zac the Hobbit <zachary@zachary.com>`,
         siteUrl: `https://zachary.com`
     },
     plugins: [
@@ -94,8 +94,8 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                name: `Zachary Binhaji`,
-                short_name: `Zachary Binhaji`,
+                name: `Zac the Hobbit`,
+                short_name: `Zac the Hobbit`,
                 start_url: `/`,
                 background_color: `#fefefe`,
                 theme_color: `#fefefe`,
