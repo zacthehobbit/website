@@ -93,6 +93,13 @@ export const globals = css`
       background-size: 50px;
     }
 
+    *{
+      -ms-overflow-style: none;
+    }
+    ::-webkit-scrollbar {
+      display: none;
+    }
+
     p {
       font-family: var(--system-font-family);
     }

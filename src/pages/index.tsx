@@ -14,12 +14,6 @@ const Container = styled.article`
   display: flex;
   flex-direction: column;
   align-items: center;
-  *{
-    -ms-overflow-style: none;
-  }
-  ::-webkit-scrollbar {
-    display: none;
-  }
 `
 
 const Hero = styled.div`
