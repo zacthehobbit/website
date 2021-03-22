@@ -121,7 +121,17 @@ module.exports = {
         {
             resolve: `gatsby-plugin-google-analytics`,
             options: {
-                trackingId: "UA-41576939-2"
+                trackingId: "XX-XXXXXXXX-X"
+            }
+        },
+        {
+            resolve: "gatsby-plugin-page-progress",
+            options: {
+                includePaths: [{ regex: "^/blog" }, "/about"],
+                height: 1,
+                prependToBody: false,
+                color: `#3F88C5`,
+                headerHeight: 0,
             }
         }
     ]

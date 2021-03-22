@@ -7,7 +7,7 @@ import { Seo } from "../components"
 
 const Container = styled.article`
   width: 100%;
-  max-width: 80%;
+  max-width: 90%;
   margin: 0 auto;
   padding: var(--space-xl) var(--space-m) var(--space-m);
   display: grid;
