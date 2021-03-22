@@ -14,6 +14,7 @@ const Container = styled.article`
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
 `
 
 const Hero = styled.div`
