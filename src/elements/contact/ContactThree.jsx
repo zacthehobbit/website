@@ -6,11 +6,12 @@ import MuiAlert from "@material-ui/lab/Alert";
 function Alert(props) {
   return <MuiAlert elevation={6} variant="filled" {...props} />;
 }
-
+const encode = (data) => {
+  return Object.keys(data)
+    .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+    .join("&");
+}
 class ContactThree extends Component {
-  handleClick = () => {
-    this.setState({ open: true });
-  };
 
   handleClose = (event, reason) => {
     if (reason === "clickaway") {
@@ -21,43 +22,27 @@ class ContactThree extends Component {
   };
   constructor(props) {
     super(props);
-    this.state = {
-      rnName: "",
-      rnEmail: "",
-      rnSubject: "",
-      rnMessage: "",
-      open: false
-    };
+    this.state = { name: "", email: "", message: "", open: false };
   }
-  sendEmail = (e) => {
+
+  /* Here’s the juicy bit for posting the form submission */
+
+  handleSubmit = e => {
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({ "form-name": "contact", ...this.state })
+    })
+      .then(() =>
+        this.setState({ open: true }))
+      .catch(error => alert(error));
+
     e.preventDefault();
-    if (this.state.rnName && this.state.rnEmail) {
-      emailjs
-        .send(
-          "service_oc8qznf",
-          "template_oc0q9be",
-          {
-            rnEmail: this.state.rnEmail,
-            rnSubject: this.state.rnSubject,
-            rnMessage: this.state.rnMessage,
-            rnName: this.state.rnName
-          },
-          "user"
-        )
-        .then(
-          (result) => {
-            this.handleClick();
-          },
-          (error) => {
-            console.log(error.text);
-          }
-        );
-      this.setState({ rnName: "", rnEmail: "", rnSubject: "", rnMessage: "" });
-    } else {
-      alert("Please fill in the contact form before submitting");
-    }
   };
+
+  handleChange = e => this.setState({ [e.target.name]: e.target.value });
   render() {
+    const { name, email, message } = this.state;
     return (
       <div className="contact-form--1">
         <div className="container">
@@ -74,7 +59,7 @@ class ContactThree extends Component {
                 </p>
               </div>
               <div className="form-wrapper">
-                <form netlify netlify-honeypot="bot-field">
+                <form onSubmit={this.handleSubmit} netlify netlify-honeypot="bot-field">
                   <label
                     style={{ float: "left", width: "48%" }}
                     htmlFor="item01"
@@ -82,12 +67,8 @@ class ContactThree extends Component {
                     <input
                       type="text"
                       name="name"
-                      id="item01"
-                      value={this.state.rnName}
-                      onChange={(e) => {
-                        this.setState({ rnName: e.target.value });
-                      }}
-                      placeholder="Your Name *"
+                      id="item01" value={name} onChange={this.handleChange}
+                      placeholder="Name*"
                     />
                   </label>
 
@@ -98,37 +79,16 @@ class ContactThree extends Component {
                     <input
                       type="email"
                       name="email"
-                      id="item02"
-                      value={this.state.rnEmail}
-                      onChange={(e) => {
-                        this.setState({ rnEmail: e.target.value });
-                      }}
-                      placeholder="Your email *"
-                    />
-                  </label>
-
-                  <label htmlFor="item03">
-                    <input
-                      type="text"
-                      name="subject"
-                      id="item03"
-                      value={this.state.rnSubject}
-                      onChange={(e) => {
-                        this.setState({ rnSubject: e.target.value });
-                      }}
-                      placeholder="Write a Subject"
+                      id="item02" value={email} onChange={this.handleChange}
+                      placeholder="Email*"
                     />
                   </label>
                   <label htmlFor="item04">
                     <textarea
                       type="text"
                       id="item04"
-                      name="message"
-                      value={this.state.rnMessage}
-                      onChange={(e) => {
-                        this.setState({ rnMessage: e.target.value });
-                      }}
-                      placeholder="Your Message"
+                      name="message" value={message} onChange={this.handleChange}
+                      placeholder="Message"
                     />
                   </label>
                   <button
@@ -138,7 +98,7 @@ class ContactThree extends Component {
                     name="submit"
                     id="mc-embedded-subscribe"
                   >
-                    Submit
+                    Send
                   </button>
                 </form>
               </div>
