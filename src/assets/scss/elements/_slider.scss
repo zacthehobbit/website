@@ -108,7 +108,7 @@ Slider Default Style
             padding-bottom: 150px;
         }
         &.fullscreen {
-            min-height: 950px;
+            min-height: 100vh;
             @media #{$laptop-device} {
                 padding-top: 160px;
                 padding-bottom: 160px;
@@ -280,7 +280,7 @@ Slider Default Style
                     font-family: 'Montserrat', sans-serif;
                     line-height: 90px;
                     text-transform: inherit;
-                    width: 70%;
+                    width: 100%;
                     @media #{$lg-layout} {
                         font-size: 70px;
                     }
@@ -625,7 +625,7 @@ For Slider Service
 
 .slider-paralax,
 .rn-paralax {
-    height: 950px;
+    height: 100vh;
     @media #{$sm-layout} {
         height: auto;
     }

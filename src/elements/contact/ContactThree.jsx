@@ -74,7 +74,7 @@ class ContactThree extends Component {
                 </p>
               </div>
               <div className="form-wrapper">
-                <form onSubmit={this.sendEmail}>
+                <form netlify netlify-honeypot="bot-field">
                   <label
                     style={{ float: "left", width: "48%" }}
                     htmlFor="item01"

@@ -10791,7 +10791,6 @@ Footer Styles
 }
 
 .footer-left .inner::after {
-    content: url(./assets/images/logo/big-logo.png);
     position: absolute;
     right: 0;
     top: 50%;
@@ -11049,39 +11048,10 @@ Footer Styles
     background-position: center;
     border-radius: 5px;
     background-color: #0a0a0a;
-    background-image: url(./assets/images/portfolio/portfolio-1.jpg);
     transform: scale(1.13) translateZ(0);
     backface-visibility: hidden;
     transition: transform 0.28s ease;
     z-index: 4;
-}
-
-.portfolio .thumbnail.image-1 {
-    background-image: url(./assets/images/portfolio/portfolio-1.jpg);
-}
-
-.portfolio .thumbnail.image-2 {
-    background-image: url(./assets/images/portfolio/portfolio-2.jpg);
-}
-
-.portfolio .thumbnail.image-3 {
-    background-image: url(./assets/images/portfolio/portfolio-3.jpg);
-}
-
-.portfolio .thumbnail.image-4 {
-    background-image: url(./assets/images/portfolio/portfolio-4.jpg);
-}
-
-.portfolio .thumbnail.image-5 {
-    background-image: url(./assets/images/portfolio/portfolio-5.jpg);
-}
-
-.portfolio .thumbnail.image-6 {
-    background-image: url(./assets/images/portfolio/portfolio-6.jpg);
-}
-
-.portfolio .thumbnail.image-7 {
-    background-image: url(./assets/images/portfolio/portfolio-7.jpg);
 }
 
 .portfolio .thumbnail::after {
@@ -11112,26 +11082,9 @@ Footer Styles
     background-size: cover;
     background-position: center;
     background-color: #0a0a0a;
-    background-image: url(./assets/images/portfolio/portfolio-1.jpg);
     transform: translateY(38px);
     opacity: 0;
     z-index: 1;
-}
-
-.portfolio .bg-blr-image.image-1 {
-    background-image: url(./assets/images/portfolio/portfolio-1.jpg);
-}
-
-.portfolio .bg-blr-image.image-2 {
-    background-image: url(./assets/images/portfolio/portfolio-2.jpg);
-}
-
-.portfolio .bg-blr-image.image-3 {
-    background-image: url(./assets/images/portfolio/portfolio-1.jpg);
-}
-
-.portfolio .bg-blr-image.image-4 {
-    background-image: url(./assets/images/portfolio/portfolio-5.jpg);
 }
 
 .portfolio .content {
@@ -11197,66 +11150,6 @@ Footer Styles
 
 .portfolio .content .inner .portfolio-button a.rn-btn:hover {
     border-color: #008bff;
-}
-
-.portfolio.portfolio-interior-design .thumbnail.image-1 {
-    background-image: url(./assets/images/portfolio/interior/portfolio-1.jpg);
-}
-
-.portfolio.portfolio-interior-design .thumbnail.image-2 {
-    background-image: url(./assets/images/portfolio/interior/portfolio-2.jpg);
-}
-
-.portfolio.portfolio-interior-design .thumbnail.image-3 {
-    background-image: url(./assets/images/portfolio/interior/portfolio-3.jpg);
-}
-
-.portfolio.portfolio-interior-design .thumbnail.image-4 {
-    background-image: url(./assets/images/portfolio/interior/portfolio-4.jpg);
-}
-
-.portfolio.portfolio-interior-design .thumbnail.image-5 {
-    background-image: url(./assets/images/portfolio/interior/portfolio-5.jpg);
-}
-
-.portfolio.portfolio-interior-design .thumbnail.image-6 {
-    background-image: url(./assets/images/portfolio/interior/portfolio-6.jpg);
-}
-
-.portfolio.portfolio-interior-design .thumbnail.image-7 {
-    background-image: url(./assets/images/portfolio/interior/portfolio-7.jpg);
-}
-
-.portfolio.portfolio-interior-design .bg-blr-image {
-    background-image: url(./assets/images/portfolio/interior/portfolio-1.jpg);
-}
-
-.portfolio.portfolio-interior-design .bg-blr-image.image-1 {
-    background-image: url(./assets/images/portfolio/interior/portfolio-1.jpg);
-}
-
-.portfolio.portfolio-interior-design .bg-blr-image.image-2 {
-    background-image: url(./assets/images/portfolio/interior/portfolio-2.jpg);
-}
-
-.portfolio.portfolio-interior-design .bg-blr-image.image-3 {
-    background-image: url(./assets/images/portfolio/interior/portfolio-3.jpg);
-}
-
-.portfolio.portfolio-interior-design .bg-blr-image.image-4 {
-    background-image: url(./assets/images/portfolio/interior/portfolio-4.jpg);
-}
-
-.portfolio.portfolio-interior-design .bg-blr-image.image-5 {
-    background-image: url(./assets/images/portfolio/interior/portfolio-5.jpg);
-}
-
-.portfolio.portfolio-interior-design .bg-blr-image.image-6 {
-    background-image: url(./assets/images/portfolio/interior/portfolio-6.jpg);
-}
-
-.portfolio.portfolio-interior-design .bg-blr-image.image-7 {
-    background-image: url(./assets/images/portfolio/interior/portfolio-7.jpg);
 }
 
 .portfolio.text-center .content {
@@ -11348,7 +11241,6 @@ Footer Styles
     background-position: center;
     border-radius: 5px;
     background-color: #0a0a0a;
-    background-image: url(./assets/images/portfolio/portfolio-static-01.jpg);
     transform: scale(1.13) translateZ(0);
     backface-visibility: hidden;
     transition: transform 0.28s ease;
@@ -11359,46 +11251,6 @@ Footer Styles
     .portfolio-tilthover .portfolio .thumbnail {
         transform: scale(1) translateZ(0);
     }
-}
-
-.portfolio-tilthover .portfolio .thumbnail.image-1 {
-    background-image: url(./assets/images/portfolio/portfolio-static-01.jpg);
-}
-
-.portfolio-tilthover .portfolio .thumbnail.image-2 {
-    background-image: url(./assets/images/portfolio/portfolio-static-02.jpg);
-}
-
-.portfolio-tilthover .portfolio .thumbnail.image-3 {
-    background-image: url(./assets/images/portfolio/portfolio-static-03.jpg);
-}
-
-.portfolio-tilthover .portfolio .thumbnail.image-4 {
-    background-image: url(./assets/images/portfolio/portfolio-static-04.jpg);
-}
-
-.portfolio-tilthover .portfolio .thumbnail.image-5 {
-    background-image: url(./assets/images/portfolio/portfolio-static-05.jpg);
-}
-
-.portfolio-tilthover .portfolio .thumbnail.image-6 {
-    background-image: url(./assets/images/portfolio/portfolio-static-06.jpg);
-}
-
-.portfolio-tilthover .portfolio .thumbnail.image-7 {
-    background-image: url(./assets/images/portfolio/portfolio-static-07.jpg);
-}
-
-.portfolio-tilthover .portfolio .thumbnail.image-8 {
-    background-image: url(./assets/images/portfolio/portfolio-static-08.jpg);
-}
-
-.portfolio-tilthover .portfolio .thumbnail.image-9 {
-    background-image: url(./assets/images/portfolio/portfolio-static-09.jpg);
-}
-
-.portfolio-tilthover .portfolio .thumbnail.image-10 {
-    background-image: url(./assets/images/portfolio/portfolio-static-10.jpg);
 }
 
 .portfolio-tilthover .portfolio .thumbnail::after {
@@ -11423,7 +11275,6 @@ Footer Styles
     background-size: cover;
     background-position: center;
     background-color: #0a0a0a;
-    background-image: url(./assets/images/portfolio/portfolio-static-01.jpg);
     transform: translateY(38px);
     opacity: 0;
     z-index: 1;
@@ -11434,46 +11285,6 @@ Footer Styles
         opacity: 0;
         z-index: 9;
     }
-}
-
-.portfolio-tilthover .portfolio .bg-blr-image.image-1 {
-    background-image: url(./assets/images/portfolio/portfolio-static-01.jpg);
-}
-
-.portfolio-tilthover .portfolio .bg-blr-image.image-2 {
-    background-image: url(./assets/images/portfolio/portfolio-static-03.jpg);
-}
-
-.portfolio-tilthover .portfolio .bg-blr-image.image-3 {
-    background-image: url(./assets/images/portfolio/portfolio-static-03.jpg);
-}
-
-.portfolio-tilthover .portfolio .bg-blr-image.image-4 {
-    background-image: url(./assets/images/portfolio/portfolio-static-04.jpg);
-}
-
-.portfolio-tilthover .portfolio .bg-blr-image.image-5 {
-    background-image: url(./assets/images/portfolio/portfolio-static-05.jpg);
-}
-
-.portfolio-tilthover .portfolio .bg-blr-image.image-6 {
-    background-image: url(./assets/images/portfolio/portfolio-static-06.jpg);
-}
-
-.portfolio-tilthover .portfolio .bg-blr-image.image-7 {
-    background-image: url(./assets/images/portfolio/portfolio-static-07.jpg);
-}
-
-.portfolio-tilthover .portfolio .bg-blr-image.image-8 {
-    background-image: url(./assets/images/portfolio/portfolio-static-08.jpg);
-}
-
-.portfolio-tilthover .portfolio .bg-blr-image.image-9 {
-    background-image: url(./assets/images/portfolio/portfolio-static-09.jpg);
-}
-
-.portfolio-tilthover .portfolio .bg-blr-image.image-10 {
-    background-image: url(./assets/images/portfolio/portfolio-static-10.jpg);
 }
 
 .portfolio-tilthover .portfolio .content {
@@ -11509,94 +11320,6 @@ Footer Styles
 .portfolio-tilthover .portfolio:hover .bg-blr-image {
     opacity: 0;
     z-index: 9;
-}
-
-.portfolio-tilthover .portfolio.designer-project .thumbnail {
-    background-image: url(./assets/images/portfolio/dp-portfolio-01.jpg);
-}
-
-.portfolio-tilthover .portfolio.designer-project .thumbnail.image-1 {
-    background-image: url(./assets/images/portfolio/dp-portfolio-01.jpg);
-}
-
-.portfolio-tilthover .portfolio.designer-project .thumbnail.image-2 {
-    background-image: url(./assets/images/portfolio/dp-portfolio-02.jpg);
-}
-
-.portfolio-tilthover .portfolio.designer-project .thumbnail.image-3 {
-    background-image: url(./assets/images/portfolio/dp-portfolio-03.jpg);
-}
-
-.portfolio-tilthover .portfolio.designer-project .thumbnail.image-4 {
-    background-image: url(./assets/images/portfolio/dp-portfolio-04.jpg);
-}
-
-.portfolio-tilthover .portfolio.designer-project .thumbnail.image-5 {
-    background-image: url(./assets/images/portfolio/dp-portfolio-05.jpg);
-}
-
-.portfolio-tilthover .portfolio.designer-project .thumbnail.image-6 {
-    background-image: url(./assets/images/portfolio/dp-portfolio-06.jpg);
-}
-
-.portfolio-tilthover .portfolio.designer-project .thumbnail.image-7 {
-    background-image: url(./assets/images/portfolio/dp-portfolio-07.jpg);
-}
-
-.portfolio-tilthover .portfolio.designer-project .thumbnail.image-8 {
-    background-image: url(./assets/images/portfolio/dp-portfolio-08.jpg);
-}
-
-.portfolio-tilthover .portfolio.designer-project .thumbnail.image-9 {
-    background-image: url(./assets/images/portfolio/dp-portfolio-09.jpg);
-}
-
-.portfolio-tilthover .portfolio.designer-project .thumbnail.image-10 {
-    background-image: url(./assets/images/portfolio/dp-portfolio-10.jpg);
-}
-
-.portfolio-tilthover .portfolio.designer-project .bg-blr-image {
-    background-image: url(./assets/images/portfolio/dp-portfolio-01.jpg);
-}
-
-.portfolio-tilthover .portfolio.designer-project .bg-blr-image.image-1 {
-    background-image: url(./assets/images/portfolio/dp-portfolio-01.jpg);
-}
-
-.portfolio-tilthover .portfolio.designer-project .bg-blr-image.image-2 {
-    background-image: url(./assets/images/portfolio/dp-portfolio-02.jpg);
-}
-
-.portfolio-tilthover .portfolio.designer-project .bg-blr-image.image-3 {
-    background-image: url(./assets/images/portfolio/dp-portfolio-03.jpg);
-}
-
-.portfolio-tilthover .portfolio.designer-project .bg-blr-image.image-4 {
-    background-image: url(./assets/images/portfolio/dp-portfolio-04.jpg);
-}
-
-.portfolio-tilthover .portfolio.designer-project .bg-blr-image.image-5 {
-    background-image: url(./assets/images/portfolio/dp-portfolio-05.jpg);
-}
-
-.portfolio-tilthover .portfolio.designer-project .bg-blr-image.image-6 {
-    background-image: url(./assets/images/portfolio/dp-portfolio-06.jpg);
-}
-
-.portfolio-tilthover .portfolio.designer-project .bg-blr-image.image-7 {
-    background-image: url(./assets/images/portfolio/dp-portfolio-07.jpg);
-}
-
-.portfolio-tilthover .portfolio.designer-project .bg-blr-image.image-8 {
-    background-image: url(./assets/images/portfolio/dp-portfolio-08.jpg);
-}
-
-.portfolio-tilthover .portfolio.designer-project .bg-blr-image.image-9 {
-    background-image: url(./assets/images/portfolio/dp-portfolio-09.jpg);
-}
-
-.portfolio-tilthover .portfolio.designer-project .bg-blr-image.image-10 {
-    background-image: url(./assets/images/portfolio/dp-portfolio-10.jpg);
 }
 
 .portfolio-sacousel-inner .slick-list {
@@ -12571,7 +12294,7 @@ Slider Default Style
 }
 
 .slide.slide-style-2.fullscreen {
-    min-height: 950px;
+    min-height: 100vh;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
@@ -12810,7 +12533,7 @@ Slider Default Style
     font-family: "Montserrat", sans-serif;
     line-height: 90px;
     text-transform: inherit;
-    width: 70%;
+    width: 100%;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -13225,7 +12948,7 @@ For Slider Service
 
 .slider-paralax,
 .rn-paralax {
-    height: 950px;
+    height: 100vh;
 }
 
 @media only screen and (max-width: 767px) {
@@ -16182,7 +15905,6 @@ BLog Details Styles
 
 .active-dark .bg_image--25 {
     background-color: #101010;
-    background-image: url(./assets/images/bg/portrait.jpg) !important;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

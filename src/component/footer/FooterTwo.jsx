@@ -27,7 +27,7 @@ const FooterTwo = () => {
           <div className="col-lg-4 col-md-6 col-sm-6 col-12">
             <div className="inner">
               <div className="logo text-center text-sm-left mb_sm--20">
-                <a href="/home-one">
+                <a href="/">
                   <img
                     style={{ height: "36px" }}
                     src={logo}
@@ -35,17 +35,6 @@ const FooterTwo = () => {
                   />
                 </a>
               </div>
-            </div>
-          </div>
-          <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-            <div className="inner text-center">
-              <ul className="social-share rn-lg-size d-flex justify-content-center liststyle">
-                {SocialShare.map((val, i) => (
-                  <li key={i}>
-                    <a href={`${val.link}`}>{val.Social}</a>
-                  </li>
-                ))}
-              </ul>
             </div>
           </div>
         </div>

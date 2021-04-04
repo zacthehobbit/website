@@ -75,30 +75,6 @@ const PortfolioLanding = () => {
                       direction: "top",
                       out_mode: "out"
                     }
-                  },
-                  interactivity: {
-                    events: {
-                      onhover: {
-                        enable: true,
-                        mode: "bubble"
-                      },
-                      onclick: {
-                        enable: true,
-                        mode: "repulse"
-                      }
-                    },
-                    modes: {
-                      bubble: {
-                        distance: 250,
-                        duration: 2,
-                        size: 0,
-                        opacity: 0
-                      },
-                      repulse: {
-                        distance: 400,
-                        duration: 4
-                      }
-                    }
                   }
                 }}
               />
@@ -108,12 +84,12 @@ const PortfolioLanding = () => {
                     <div className={`inner ${value.textPosition}`}>
                       {value.category ? <span>{value.category}</span> : ""}
                       <h1 className="title">
-                        Hi, I’m Zac <br />
+                        Hi, I’m Zac the{" "}
                         <TextLoop>
-                          <span> the Hobbit.</span>
-                          <span> the Civic.</span>
-                          <span> the One.</span>
-                        </TextLoop>{" "}
+                          <span> Hobbit.</span>
+                          <span> Civic.</span>
+                          <span> One.</span>
+                        </TextLoop>
                       </h1>
                       {value.description ? (
                         <p className="description">{value.description}</p>
@@ -152,7 +128,6 @@ const PortfolioLanding = () => {
                 <div className="col-lg-12">
                   <div className="about-inner inner">
                     <div className="section-title">
-                      <h2 className="title">{title}</h2>
                       <div>
                         <div className="row row--35 align-items-center">
                           <div className="col-md-3">
@@ -210,14 +185,13 @@ const PortfolioLanding = () => {
 
       {/* Start Portfolio Area */}
       <div id="portfolio" className="fix">
-        <div className="portfolio-area ptb--120 bg_color--3">
+        <div className="portfolio-area ptb--120 bg_color--4">
           <div className="portfolio-sacousel-inner">
             <div className="container">
               <div className="row">
                 <div className="col-lg-12">
                   <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
-                    <h2 className="title">My Latest Projects</h2>
-                    <p>Here are a few projects I've worked on recently.</p>
+                    <h2 className="title">Compendium</h2>
                   </div>
                 </div>
               </div>

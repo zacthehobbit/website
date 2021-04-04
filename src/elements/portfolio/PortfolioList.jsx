@@ -39,7 +39,7 @@ class PortfolioList extends Component {
                           rel="noreferrer"
                           target="_blank"
                         >
-                          Live
+                          Visit
                         </a>
                       </div>
                     ) : null}
