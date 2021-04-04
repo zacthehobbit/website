@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import emailjs from "emailjs-com";
 import Snackbar from "@material-ui/core/Snackbar";
 import MuiAlert from "@material-ui/lab/Alert";
 
@@ -25,11 +24,18 @@ class ContactThree extends Component {
     this.state = { name: "", email: "", message: "", open: false };
   }
 
-  /* Here’s the juicy bit for posting the form submission */
-
   handleSubmit = e => {
-    if (this.name && this.email && this.message)
-      this.setState({ open: true });
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({ "form-name": "contact", ...this.state })
+    })
+      .then(() => {
+        if (this.name && this.email && this.message)
+          this.setState({ open: true })
+      })
+      .catch(error => alert(error));
+    e.PreventDefault();
   };
 
   handleChange = e => this.setState({ [e.target.name]: e.target.value });
