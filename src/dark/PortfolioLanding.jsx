@@ -12,7 +12,6 @@ import ServiceList from "../elements/service/ServiceList";
 import Particles from "react-particles-js";
 import BrandTwo from "./BrandTwo";
 import avatar from "../assets/images/about/avatar.jpg";
-import myPDF from "../assets/Othman_CV.pdf";
 
 const SlideList = [
   {
