@@ -28,16 +28,8 @@ class ContactThree extends Component {
   /* Here’s the juicy bit for posting the form submission */
 
   handleSubmit = e => {
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact", ...this.state })
-    })
-      .then(() =>
-        this.setState({ open: true }))
-      .catch(error => alert(error));
-
-    e.preventDefault();
+    if (this.name && this.email && this.message)
+      this.setState({ open: true });
   };
 
   handleChange = e => this.setState({ [e.target.name]: e.target.value });
@@ -59,7 +51,8 @@ class ContactThree extends Component {
                 </p>
               </div>
               <div className="form-wrapper">
-                <form onSubmit={this.handleSubmit} netlify netlify-honeypot="bot-field">
+                <form onSubmit={this.handleSubmit} netlify netlify-honeypot="bot-field" data-netlify="true">
+                  <input type="hidden" name="form-name" value="Contact Form" />
                   <label
                     style={{ float: "left", width: "48%" }}
                     htmlFor="item01"
@@ -68,7 +61,7 @@ class ContactThree extends Component {
                       type="text"
                       name="name"
                       id="item01" value={name} onChange={this.handleChange}
-                      placeholder="Name*"
+                      placeholder="Name"
                     />
                   </label>
 
@@ -80,7 +73,7 @@ class ContactThree extends Component {
                       type="email"
                       name="email"
                       id="item02" value={email} onChange={this.handleChange}
-                      placeholder="Email*"
+                      placeholder="Email"
                     />
                   </label>
                   <label htmlFor="item04">
