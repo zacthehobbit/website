@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 const PortfolioListContent = [
   {
-    image: "image-1",
+    image: "image-2",
     category: "News & Blogs",
     title: "Civism",
     link: "https://civism.org"
@@ -17,6 +17,7 @@ class PortfolioList extends Component {
       <React.Fragment>
         {list.map((value, index) => (
           <div className={`${column}`} key={index}>
+          <a href={value.link}>
             <div className={`portfolio ${styevariation}`}>
               <div className="thumbnail-inner">
                 <div className={`thumbnail ${value.image}`}></div>
@@ -30,35 +31,9 @@ class PortfolioList extends Component {
                       {value.title}
                     </a>
                   </h4>
-                  <div className="postButtons">
-                    {value.link ? (
-                      <div className="portfolio-button">
-                        <a
-                          className="rn-btn"
-                          href={value.link}
-                          rel="noreferrer"
-                          target="_blank"
-                        >
-                          Visit
-                        </a>
-                      </div>
-                    ) : null}
-                    {value.repo ? (
-                      <div className="portfolio-button">
-                        <a
-                          className="rn-btn"
-                          href={value.repo}
-                          rel="noreferrer"
-                          target="_blank"
-                        >
-                          Repo
-                        </a>
-                      </div>
-                    ) : null}
-                  </div>
                 </div>
               </div>
-            </div>
+            </div></a>
           </div>
         ))}
       </React.Fragment>

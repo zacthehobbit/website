@@ -4099,7 +4099,7 @@ font-family: 'Poppins', sans-serif;
 }
 
 .bg_color--4 {
-    background: #1a1b1f;
+    background: #181818;
 }
 
 .bg_color--5 {
@@ -15790,7 +15790,7 @@ BLog Details Styles
 
 .active-dark .bg_color--1,
 .active-dark .brand-separation {
-    background: #191919;
+    background: #141414;
 }
 
 .active-dark .bg_color--5,
@@ -15865,7 +15865,7 @@ BLog Details Styles
 }
 
 .active-dark .creative-service-wrapper .row.creative-service .service.service__style--2 {
-    background: #191919;
+    background: #141414;
 }
 
 .active-dark .contact-form--1 input,
@@ -15879,7 +15879,7 @@ BLog Details Styles
 }
 
 .active-dark .header-area.header--fixed.sticky {
-    background: #191919;
+    background: #141414;
 }
 
 .active-dark .header-area.header--fixed.sticky .header-wrapper a.rn-btn {

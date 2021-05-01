@@ -1,17 +1,16 @@
 import React from "react";
-import ScrollToTop from "react-scroll-up";
-import { FiChevronUp } from "react-icons/fi";
 import Helmet from "../component/common/Helmet";
 import TextLoop from "react-text-loop";
-import HeaderThree from "../component/header/HeaderThree";
 import FooterTwo from "../component/footer/FooterTwo";
 import TabTwo from "../elements/tab/TabTwo";
 import ContactThree from "../elements/contact/ContactThree";
 import PortfolioList from "../elements/portfolio/PortfolioList";
-import ServiceList from "../elements/service/ServiceList";
 import Particles from "react-particles-js";
-import BrandTwo from "./BrandTwo";
 import avatar from "../assets/images/about/avatar.jpg";
+import ProgressBar from "react-scroll-progress-bar"; 
+import Konami from 'react-konami-code';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const SlideList = [
   {
@@ -22,16 +21,36 @@ const SlideList = [
     buttonLink: ""
   }
 ];
+
+const easterEgg = () => {
+  toast.dark('The answer to the meaning of life, the universe, and everything is 4̴̗̪̙̭̟͎̻̆̍̈́̇͋̈́͛̕͘͠͠2̴̮̗͔͈̭̭̳͂̓̓͂');
+}
+
 const PortfolioLanding = () => {
   let title = "About Me",
     description =
-      "For although the greatest amongs us will never reach the stars, we may always yearn.";
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
   // const PostList = BlogContent.slice(0, 3);
   return (
     <div className="active-dark">
       <Helmet pageTitle="Zac the Hobbit" />
+      <ProgressBar height="1px" bgcolor="#008BFF"/>
+      <Konami action={easterEgg}/>
+      <ToastContainer
+        position="top-center"
+        autoClose={2500}
+        hideProgressBar
+        newestOnTop={false}
+        closeOnClick={false}
+        rtl={false}
+        pauseOnFocusLoss={false}
+        draggable={false}
+        pauseOnHover={false}
+        closeButton={false}
+        style={{ width: "90%", textAlign: "center" }}
+      />
 
-      <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
+      {/* <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" /> */}
 
       {/* Start Slider Area   */}
       <div id="home" className="fix">
@@ -92,7 +111,7 @@ const PortfolioLanding = () => {
                         </TextLoop>
                       </h1>
                       {value.description ? (
-                        <p className="description">{value.description}</p>
+                        <p className="description" style={{"textAlign":"justify"}}>{value.description}</p>
                       ) : (
                         ""
                       )}
@@ -140,7 +159,7 @@ const PortfolioLanding = () => {
                             </div>
                           </div>
                           <div className="col-md-9">
-                            <p className="description">{description}</p>
+                            <p className="description" style={{"textAlign":"justify"}}>{description}</p>
                           </div>
                         </div>
 
