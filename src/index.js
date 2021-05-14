@@ -1,20 +1,11 @@
-// React Required
-import React, { Component } from "react";
-import ReactDOM from "react-dom";
-import 'bootstrap/dist/css/bootstrap.css';
+import "normalize.css";
+import "./css/main.ltr.css";
+import "./css/themes.css";
+import "./css/purple.css";
+import "./css/custom.css";
 
-// Create Import File
-import "./index.css";
+import SiteState from './js/SiteState';
+import Site from './js/Site';
 
-import DarkPortfolioLanding from "./dark/PortfolioLanding";
-import * as serviceWorker from "./serviceWorker";
-
-
-class Root extends Component {
-  render() {
-    return <DarkPortfolioLanding />;
-  }
-}
-
-ReactDOM.render(<Root />, document.getElementById("root"));
-serviceWorker.register();
+const siteState = new SiteState();
+new Site(siteState);

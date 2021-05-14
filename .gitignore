@@ -1,2 +1,4 @@
 node_modules
-build/static
+dist
+.DS_Store
+BEFORE_PUSH_TO_REPOSITORY.md
