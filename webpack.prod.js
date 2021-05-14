@@ -28,8 +28,7 @@ module.exports = merge(common, {
     plugins: [
         new CleanWebpackPlugin(),
         new CopyWebpackPlugin({
-            patterns: [
-                {
+            patterns: [{
                     from: "src/browserconfig.xml",
                 },
                 {
@@ -41,10 +40,6 @@ module.exports = merge(common, {
         new HtmlWebpackPlugin({
             filename: "index.html",
             template: "./src/index.html"
-        }),
-        new HtmlWebpackPlugin({
-            filename: "fullscreen.html",
-            template: "./src/fullscreen.html"
-        }),
+        })
     ],
 });
