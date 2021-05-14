@@ -1,61 +1,60 @@
 {
-  "name": "leeneon",
-  "version": "1.0.0",
-  "description": "Leeneon is a free portfolio template designed and developed to be accessible for as many users as possible.",
-  "main": "./src/index.js",
-  "scripts": {
-    "start": "npx webpack serve --config webpack.dev.js",
-    "build": "npx webpack --config webpack.prod.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Manussakis/leeneon.git"
-  },
-  "browserslist": [
-    "last 2 version",
-    "> 0.5%",
-    "IE >= 11"
-  ],
-  "keywords": [
-    "a11y",
-    "dark-theme",
-    "portfolio-website",
-    "rtl"
-  ],
-  "author": "https://github.com/Manussakis/",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Manussakis/leeneon/issues"
-  },
-  "homepage": "https://github.com/Manussakis/leeneon#readme",
-  "devDependencies": {
-    "@babel/core": "^7.13.15",
-    "@babel/preset-env": "^7.13.15",
-    "babel-loader": "^8.2.2",
-    "clean-webpack-plugin": "*",
-    "copy-webpack-plugin": "^8.1.1",
-    "css-loader": "^5.2.1",
-    "css-minimizer-webpack-plugin": "^2.0.0",
-    "html-loader": "^2.1.2",
-    "html-webpack-plugin": "^5.3.1",
-    "mini-css-extract-plugin": "^1.4.1",
-    "webpack": "^5.33.2",
-    "webpack-cli": "^4.6.0",
-    "webpack-dev-server": "^3.11.2",
-    "webpack-merge": "^5.7.3"
-  },
-  "dependencies": {
-    "animejs": "^3.2.1",
-    "focus-visible": "^5.2.0",
-    "headroom.js": "^0.12.0",
-    "imagesloaded": "^4.1.4",
-    "isotope-layout": "^3.0.6",
-    "jarallax": "^1.12.5",
-    "normalize.css": "^8.0.1",
-    "object-fit-images": "^3.2.4",
-    "rxjs": "^6.6.7",
-    "smooth-scroll": "^16.1.3",
-    "swiper": "^6.5.7",
-    "wicg-inert": "^3.1.1"
-  }
+    "name": "zach",
+    "version": "1.0.0",
+    "description": "Zach is a masters student at the university of bristol in the UK",
+    "main": "./src/index.js",
+    "scripts": {
+        "start": "npx webpack serve --config webpack.dev.js",
+        "build": "npx webpack --config webpack.prod.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/zacthehobbit/website.git"
+    },
+    "browserslist": [
+        "last 2 version",
+        "> 0.5%",
+        "IE >= 11"
+    ],
+    "keywords": [
+        "a11y",
+        "dark-theme",
+        "portfolio-website",
+        "rtl"
+    ],
+    "author": "https://github.com/zacthehobbit/",
+    "bugs": {
+        "url": "https://github.com/zacthehobbit/website/issues"
+    },
+    "homepage": "https://github.com/zacthehobbit/website#readme",
+    "devDependencies": {
+        "@babel/core": "^7.13.15",
+        "@babel/preset-env": "^7.13.15",
+        "babel-loader": "^8.2.2",
+        "clean-webpack-plugin": "*",
+        "copy-webpack-plugin": "^8.1.1",
+        "css-loader": "^5.2.1",
+        "css-minimizer-webpack-plugin": "^2.0.0",
+        "html-loader": "^2.1.2",
+        "html-webpack-plugin": "^5.3.1",
+        "mini-css-extract-plugin": "^1.4.1",
+        "webpack": "^5.33.2",
+        "webpack-cli": "^4.6.0",
+        "webpack-dev-server": "^3.11.2",
+        "webpack-merge": "^5.7.3"
+    },
+    "dependencies": {
+        "animejs": "^3.2.1",
+        "focus-visible": "^5.2.0",
+        "headroom.js": "^0.12.0",
+        "imagesloaded": "^4.1.4",
+        "isotope-layout": "^3.0.6",
+        "jarallax": "^1.12.5",
+        "normalize.css": "^8.0.1",
+        "object-fit-images": "^3.2.4",
+        "rxjs": "^6.6.7",
+        "smooth-scroll": "^16.1.3",
+        "swiper": "^6.5.7",
+        "wicg-inert": "^3.1.1"
+    }
 }

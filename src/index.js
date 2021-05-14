@@ -1,7 +1,7 @@
 import "normalize.css";
 import "./css/main.ltr.css";
 import "./css/themes.css";
-import "./css/purple.css";
+import "./css/red.css";
 import "./css/custom.css";
 
 import SiteState from './js/SiteState';
