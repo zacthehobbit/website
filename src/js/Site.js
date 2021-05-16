@@ -1,7 +1,6 @@
 import 'focus-visible';
 import SiteHeader from "./sections/SiteHeader";
 import AboutMe from "./sections/AboutMe";
-import Portfolio from "./sections/Portfolio";
 import Contact from "./sections/Contact";
 import A11yPreferences from "./sections/A11yPreferences";
 import Preloader from "./sections/Preloader";
@@ -54,7 +53,6 @@ export default class Site {
     initSiteSections() {
         new SiteHeader(this.siteState);
         new AboutMe();
-        new Portfolio();        
         new Contact();
         new A11yPreferences(this.siteState);
         new Preloader(this.siteState);

@@ -1,7 +1,6 @@
 import { 
     FOCUSABLE_ELEMENTS_STRING,
     SITE_NAVIGATION_MOBILE_ACTIVE_CLASSNAME,
-    PORTFOLIO_MODAL_ACTIVE_CLASSNAME,
     A11Y_PREFERENCES_ACTIVE_CLASSNAME,
     ANIMATION_OFF_CLASSNAME,
     DARK_THEME_CLASSNAME,
@@ -130,10 +129,6 @@ export function isWindowGreaterOrEqual(value) {
 
 export function isSiteNavigationMobilActive() {
     return getEl('#site-navigation').classList.contains(SITE_NAVIGATION_MOBILE_ACTIVE_CLASSNAME);
-}
-
-export function isPortfolioModalOpen() {
-    return getEl('#portfolio-modal').classList.contains(PORTFOLIO_MODAL_ACTIVE_CLASSNAME);
 }
 
 export function isA11yPreferencesOpen() {

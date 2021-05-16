@@ -2,8 +2,6 @@ export const SITE_NAVIGATION_MOBILE_ACTIVE_CLASSNAME = 'site-navigation--mobile-
 
 export const SITE_NAVIGATION_TOGGLER_ACIVE_CLASSNAME = 'site-navigation-toggler--active';
 
-export const PORTFOLIO_MODAL_ACTIVE_CLASSNAME = 'portfolio-modal--active';
-
 export const A11Y_PREFERENCES_ACTIVE_CLASSNAME = 'a11y-preferences--visible';
 
 export const ANIMATION_OFF_CLASSNAME = 'animation-off';

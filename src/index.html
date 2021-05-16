@@ -15,7 +15,6 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicons/favicon-16x16.png">
     <link rel="manifest" href="./site.webmanifest">
-    <link rel="mask-icon" href="./assets/favicons/safari-pinned-tab.svg" color="#192136">
     <meta name="msapplication-config" content="browserconfig.xml" />
     <meta name="application-name" content="Zach - Masters student in the UK" />
     <meta name="theme-color" content="#192136">
@@ -214,9 +213,7 @@
                 </footer>
             </div>
         </div>
-
-
-
+        
         <!-- SITE MAIN CONTENT -->
         <main class="site-main" id="site-main" tabindex="-1">
             <!-- SITE HOME -->
@@ -259,7 +256,7 @@
                     <header class="section__header fade-up-start" data-gc="fade-up">
                         <h2>About me</h2>
                         <div class="line line--horizontal line--heading" aria-hidden="true"></div>
-                        <p class="section__header-p">Here is a great place to start talking about yourself, tell to the world your best skills.</p>
+                        <p class="section__header-p">We don’t know ourselves except through listening to our echoes, and consulting our memories</p>
                     </header>
                     <div class="about-me__grid">
                         <div>
@@ -308,10 +305,10 @@
                 <div class="hire-me fade-up-start" data-gc="fade-up">
                     <span class="hire-me__surface"></span>
                     <div class="hire-me__content">
-                        <h2>I'm available for new jobs</h2>
-                        <a href="#contact" class="button button--default mt-3">
-                            <span class="line--underline">Contact me</span>
-                        </a>
+                        <h2>Copy PGP key to clipboard</h2>
+                        <button onclick="copyToClipboard()" class="button button--default mt-3">
+                            <span class="line--underline">Imprint</span>
+                        </button>
                     </div>
                     <span class="hire-me__line"></span>
                 </div>
@@ -324,7 +321,7 @@
                     <header class="section__header fade-up-start" data-gc="fade-up">
                         <h2>Experience</h2>
                         <div class="line line--horizontal line--heading" aria-hidden="true"></div>
-                        <p class="section__header-p">In this section you show all the path you follow to be where you are now, your graduations and professional experiences goes here.</p>
+                        <p class="section__header-p">When we're asked who we are, we usually give a kind of recitation of a history</p>
                     </header>
                     <div class="experience__grid">
 
@@ -333,15 +330,15 @@
                                 <span class="timeline__vertical-line"></span>
                                 <h3 class="timeline__title">Education</h3>
                                 <div class="timeline__item">
-                                    <h4>Graphic design</h4>
+                                    <h4>University of Bristol</h4>
                                     <span class="timeline__item-bullet"></span>
                                     <span class="timeline__item-date">
-                                        <span class="heading-5">december 2019</span>
+                                        <span class="heading-5">2020</span>
                                     <span class="line line--horizontal line--separator"></span>
                                     <span class="heading-5">now</span>
                                     </span>
-                                    <span class="heading-5">acme university</span>
-                                    <p class="timeline__item-p">Tell here how was your experience by learning this subject, what were your main challenges and how did you overcame them.</p>
+                                    <span class="heading-5">Master's Degree, Law</span>
+                                    <!-- <p class="timeline__item-p">Tell here how was your experience by learning this subject, what were your main challenges and how did you overcame them.</p>
                                     <p class="bold">Developed skills</p>
                                     <ul class="dash-list">
                                         <li class="dash-list__item dash-list__item--inline">
@@ -353,18 +350,18 @@
                                         <li class="dash-list__item dash-list__item--inline">
                                             <span class="dash-list__dash" aria-hidden="true"></span> Branding
                                         </li>
-                                    </ul>
+                                    </ul> -->
                                 </div>
                                 <div class="timeline__item">
-                                    <h4>Illustration</h4>
+                                    <h4>University of Toronto</h4>
                                     <span class="timeline__item-bullet"></span>
                                     <span class="timeline__item-date">
-                                        <span class="heading-5">march 2017</span>
+                                        <span class="heading-5">2020</span>
                                     <span class="line line--horizontal line--separator"></span>
-                                    <span class="heading-5">dez 2019</span>
+                                    <span class="heading-5">2016</span>
                                     </span>
-                                    <span class="heading-5">acme school</span>
-                                    <p class="timeline__item-p">Tell here how was your experience by learning this subject, what were your main challenges and how did you overcame them.</p>
+                                    <span class="heading-5">Criminology, Law, and Sociology</span>
+                                    <!-- <p class="timeline__item-p">Tell here how was your experience by learning this subject, what were your main challenges and how did you overcame them.</p>
                                     <p class="bold">Developed skills</p>
                                     <ul class="dash-list">
                                         <li class="dash-list__item dash-list__item--inline">
@@ -373,7 +370,27 @@
                                         <li class="dash-list__item dash-list__item--inline">
                                             <span class="dash-list__dash" aria-hidden="true"></span> Illustrator
                                         </li>
-                                    </ul>
+                                    </ul> -->
+                                </div>
+                                <div class="timeline__item">
+                                    <h4>University of Lisbon</h4>
+                                    <span class="timeline__item-bullet"></span>
+                                    <span class="timeline__item-date">
+                                        <span class="heading-5">2019</span>
+                                    <span class="line line--horizontal line--separator"></span>
+                                    <span class="heading-5">2019</span>
+                                    </span>
+                                    <span class="heading-5">Foreign Languages, Literatures, and Linguistics</span>
+                                    <!-- <p class="timeline__item-p">Tell here how was your experience by learning this subject, what were your main challenges and how did you overcame them.</p>
+                                    <p class="bold">Developed skills</p>
+                                    <ul class="dash-list">
+                                        <li class="dash-list__item dash-list__item--inline">
+                                            <span class="dash-list__dash" aria-hidden="true"></span> Photoshop
+                                        </li>
+                                        <li class="dash-list__item dash-list__item--inline">
+                                            <span class="dash-list__dash" aria-hidden="true"></span> Illustrator
+                                        </li>
+                                    </ul> -->
                                 </div>
                                 <span class="timeline__start-point"></span>
                             </div>
@@ -384,53 +401,16 @@
                                 <span class="timeline__vertical-line"></span>
                                 <h3 class="timeline__title">Professional</h3>
                                 <div class="timeline__item">
-                                    <h4>Front end developer</h4>
+                                    <h4>VLC</h4>
                                     <span class="timeline__item-bullet"></span>
                                     <span class="timeline__item-date">
-                                        <span class="heading-5">august 2018</span>
+                                        <span class="heading-5">September 2014</span>
                                     <span class="line line--horizontal line--separator"></span>
-                                    <span class="heading-5">now</span>
+                                    <span class="heading-5">August 2016</span>
                                     </span>
-                                    <span class="heading-5">acme company</span>
-                                    <p class="timeline__item-p">Tell here what were your responsibilities by occupying this role, what kind of skills have you developed during this experience?</p>
-                                    <p class="bold">Developed skills</p>
-                                    <ul class="dash-list">
-                                        <li class="dash-list__item dash-list__item--inline">
-                                            <span class="dash-list__dash" aria-hidden="true"></span> HTML
-                                        </li>
-                                        <li class="dash-list__item dash-list__item--inline">
-                                            <span class="dash-list__dash" aria-hidden="true"></span> CSS
-                                        </li>
-                                        <li class="dash-list__item dash-list__item--inline">
-                                            <span class="dash-list__dash" aria-hidden="true"></span> JavaScript
-                                        </li>
-                                        <li class="dash-list__item dash-list__item--inline">
-                                            <span class="dash-list__dash" aria-hidden="true"></span> Ruby
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="timeline__item">
-                                    <h4>Ux/ui designer</h4>
-                                    <span class="timeline__item-bullet"></span>
-                                    <span class="timeline__item-date">
-                                        <span class="heading-5">april 2017</span>
-                                    <span class="line line--horizontal line--separator"></span>
-                                    <span class="heading-5">aug 2018</span>
-                                    </span>
-                                    <span class="heading-5">acme company</span>
-                                    <p class="timeline__item-p">Tell here what were your responsibilities by occupying this role, what kind of skills have you developed during this experience?</p>
-                                    <p class="bold">Developed skills</p>
-                                    <ul class="dash-list">
-                                        <li class="dash-list__item dash-list__item--inline">
-                                            <span class="dash-list__dash" aria-hidden="true"></span> Research
-                                        </li>
-                                        <li class="dash-list__item dash-list__item--inline">
-                                            <span class="dash-list__dash" aria-hidden="true"></span> Wireframe
-                                        </li>
-                                        <li class="dash-list__item dash-list__item--inline">
-                                            <span class="dash-list__dash" aria-hidden="true"></span> Mockups
-                                        </li>
-                                    </ul>
+                                    <span class="heading-5">Co-Founder</span>
+                                    <p class="timeline__item-p">Raised funds for cancer research and other charities</p>
+                                    <p class="timeline__item-p">Recruiting volunteers and organizing them to assist with the needs of numerous NGOs</p>
                                 </div>
                                 <span class="timeline__start-point"></span>
                             </div>
@@ -446,7 +426,7 @@
                     <header class="section__header fade-up-start" data-gc="fade-up">
                         <h2>Services</h2>
                         <div class="line line--horizontal line--heading" aria-hidden="true"></div>
-                        <p class="section__header-p">What kind of services do you offer? Photography? Design? Web development? Specify all of them here.</p>
+                        <p class="section__header-p">Stay in the center, and you will be ready to move in any direction</p>
                     </header>
                     <ul class="services__grid list-reset">
                         <li class="fade-up-start" data-gc="fade-up">
@@ -556,7 +536,7 @@
                     <header class="section__header fade-up-start" data-gc="fade-up">
                         <h2>Contact</h2>
                         <div class="line line--horizontal line--heading" aria-hidden="true"></div>
-                        <p class="section__header-p">Are you open to talk about new jobs opportunities? Show all the ways people can contact you.</p>
+                        <!-- <p class="section__header-p">Are you open to talk about new jobs opportunities? Show all the ways people can contact you.</p> -->
                     </header>
                     <div class="contact__grid">
                         <div class="fade-up-start" data-gc="fade-up">
@@ -568,7 +548,7 @@
                                             d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10h5v-2h-5c-4.34 0-8-3.66-8-8s3.66-8 8-8 8 3.66 8 8v1.43c0 .79-.71 1.57-1.5 1.57s-1.5-.78-1.5-1.57V12c0-2.76-2.24-5-5-5s-5 2.24-5 5 2.24 5 5 5c1.38 0 2.64-.56 3.54-1.47.65.89 1.77 1.47 2.96 1.47 1.97 0 3.5-1.6 3.5-3.57V12c0-5.52-4.48-10-10-10zm0 13c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z" />
                                     </svg>
                                 </div>
-                                <span class="contact-info__text">name@domain.com</span>
+                                <span class="contact-info__text">zacthehobbit@pm.me</span>
                             </div>
                             <div class="contact-info">
                                 <div class="contact-info__icon">
@@ -578,7 +558,7 @@
                                             d="M15.5 1h-8C6.12 1 5 2.12 5 3.5v17C5 21.88 6.12 23 7.5 23h8c1.38 0 2.5-1.12 2.5-2.5v-17C18 2.12 16.88 1 15.5 1zm-4 21c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm4.5-4H7V4h9v14z" />
                                     </svg>
                                 </div>
-                                <span class="contact-info__text">(55) 11 9 9999-9999</span>
+                                <span class="contact-info__text">(123) 456 - 789</span>
                             </div>
                             <div class="contact-info">
                                 <div class="contact-info__icon">
@@ -588,12 +568,11 @@
                                             d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
                                     </svg>
                                 </div>
-                                <span class="contact-info__text">382 Barker Four Street<br>Olympic Village, Sao Paulo -
-                                    SP</span>
+                                <span class="contact-info__text">1 Beacon House<br>Queens Road, Bristol</span>
                             </div>
                         </div>
                         <div class="fade-up-start" data-gc="fade-up">
-                            <form action="" method="POST" enctype="multipart/form-data" class="form-contact" id="contact-form">
+                            <form method="POST" enctype="multipart/form-data" class="form-contact" id="contact-form" data-netlify="true">
                                 <span class="form-contact__surface"></span>
                                 <div class="form-group">
                                     <div id="form-live-region" class="form__message" role="alert" aria-atomic="true">
@@ -631,384 +610,6 @@
             </section>
             <!-- END CONTACT -->
         </main>
-
-        <!-- PORTFOLIO MODAL -->
-        <div class="portfolio-modal" id="portfolio-modal" inert>
-            <div class="portfolio-modal__main">
-                <div class="portfolio-modal__main-inner">
-                    <div class="swiper-container portfolio-modal__carousel">
-                        <div class="swiper-wrapper">
-
-                            <!-- PORTFOLIO ITEM 1 -->
-                            <div class="swiper-slide portfolio-item">
-                                <div class="portfolio-item__content">
-                                    <div class="portfolio-item__header mt-3 mb-4">
-                                        <h3 class="portfolio-item__title" tabindex="-1">An amazing fake project</h3>
-                                        <div class="heading-5">
-                                            <span class="sr-only">Categories </span>
-                                            <span class="mr-2"><span
-                                                    aria-hidden="true">#</span><span>design</span></span>
-                                            <span class="mr-2"><span
-                                                    aria-hidden="true">#</span><span>photo</span></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="portfolio-item__imgs">
-                                    <div class="portfolio-item__img-wrapper">
-                                        <img loading="lazy" class="img-fluid" src="./assets/portfolio/portfolio-item-1-1.jpg" alt="Fake project image for demonstration purposes only">
-                                    </div>
-                                    <div class="portfolio-item__img-wrapper">
-                                        <img loading="lazy" class="img-fluid" src="./assets/portfolio/portfolio-item-1-2.jpg" alt="Fake project image for demonstration purposes only">
-                                    </div>
-                                    <div class="portfolio-item__img-wrapper">
-                                        <img loading="lazy" class="img-fluid" src="./assets/portfolio/portfolio-item-1-3.jpg" alt="Fake project image for demonstration purposes only">
-                                    </div>
-                                </div>
-                                <div class="container">
-                                    <div class="portfolio-item__content">
-                                        <div class="portfolio-item__description">
-                                            <div class="line line--horizontal line--portfolio"></div>
-                                            <p class="portfolio-item__description-p">This is a fake text, it is used to fill some text area that doesn't have any content written yet. It simulates how the paragraph will look like. Remember to edit this content before publishing your project.</p>
-                                            <p class="bold">Skills</p>
-                                            <ul class="dash-list portfolio-item__description-list">
-                                                <li class="dash-list__item dash-list__item--inline">
-                                                    <span class="dash-list__dash" aria-hidden="true"></span> Branding
-                                                </li>
-                                                <li class="dash-list__item dash-list__item--inline">
-                                                    <span class="dash-list__dash" aria-hidden="true"></span> Graphic design
-                                                </li>
-                                                <li class="dash-list__item dash-list__item--inline">
-                                                    <span class="dash-list__dash" aria-hidden="true"></span> Mockup
-                                                </li>
-                                            </ul>
-                                            <a class="portfolio-item__link-icon button button--icon button--icon-default" href="#" aria-label="Open An amazing fake project project">
-                                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px">
-                                                    <path d="M0 0h24v24H0z" fill="none" />
-                                                    <path
-                                                        d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" />
-                                                </svg>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- PORTFOLIO ITEM 2 -->
-                            <div class="swiper-slide portfolio-item">
-                                <div class="portfolio-item__content">
-                                    <div class="portfolio-item__header mt-3 mb-4">
-                                        <h3 class="portfolio-item__title" tabindex="-1">Another great fake project</h3>
-                                        <div class="heading-5">
-                                            <span class="sr-only">Categories </span>
-                                            <span class="mr-2"><span
-                                                    aria-hidden="true">#</span><span>photo</span></span>
-                                            <span class="mr-2"><span
-                                                    aria-hidden="true">#</span><span>website</span></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="portfolio-item__imgs">
-                                    <div class="portfolio-item__img-wrapper">
-                                        <img loading="lazy" class="img-fluid" src="./assets/portfolio/portfolio-item-2-1.jpg" alt="Fake project image for demonstration purposes only">
-                                    </div>
-                                    <div class="portfolio-item__img-wrapper">
-                                        <img loading="lazy" class="img-fluid" src="./assets/portfolio/portfolio-item-2-2.jpg" alt="Fake project image for demonstration purposes only">
-                                    </div>
-                                    <div class="portfolio-item__img-wrapper">
-                                        <img loading="lazy" class="img-fluid" src="./assets/portfolio/portfolio-item-2-3.jpg" alt="Fake project image for demonstration purposes only">
-                                    </div>
-                                </div>
-                                <div class="container">
-                                    <div class="portfolio-item__content">
-                                        <div class="portfolio-item__description">
-                                            <div class="line line--horizontal line--portfolio"></div>
-                                            <p class="portfolio-item__description-p">This is a fake text, it is used to fill some text area that doesn't have any content written yet. It simulates how the paragraph will look like. Remember to edit this content before publishing your project.</p>
-                                            <p class="bold">Skills</p>
-                                            <ul class="dash-list portfolio-item__description-list">
-                                                <li class="dash-list__item dash-list__item--inline">
-                                                    <span class="dash-list__dash" aria-hidden="true"></span> Illustrator
-                                                </li>
-                                                <li class="dash-list__item dash-list__item--inline">
-                                                    <span class="dash-list__dash" aria-hidden="true"></span> Photoshop
-                                                </li>
-                                                <li class="dash-list__item dash-list__item--inline">
-                                                    <span class="dash-list__dash" aria-hidden="true"></span> Mockup
-                                                </li>
-                                            </ul>
-                                            <a class="portfolio-item__link-icon button button--icon button--icon-default" href="#" aria-label="Open Another great fake project project">
-                                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px">
-                                                    <path d="M0 0h24v24H0z" fill="none" />
-                                                    <path
-                                                        d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" />
-                                                </svg>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- PORTFOLIO ITEM 3 -->
-                            <div class="swiper-slide portfolio-item">
-                                <div class="portfolio-item__content">
-                                    <div class="portfolio-item__header mt-3 mb-4">
-                                        <h3 class="portfolio-item__title" tabindex="-1">A super challenging fake project
-                                        </h3>
-                                        <div class="heading-5">
-                                            <span class="sr-only">Categories </span>
-                                            <span class="mr-2"><span
-                                                    aria-hidden="true">#</span><span>website</span></span>
-                                            <span class="mr-2"><span
-                                                    aria-hidden="true">#</span><span>branding</span></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="portfolio-item__imgs">
-                                    <div class="portfolio-item__img-wrapper">
-                                        <img loading="lazy" class="img-fluid" src="./assets/portfolio/portfolio-item-3-1.jpg" alt="Fake project image for demonstration purposes only">
-                                    </div>
-                                    <div class="portfolio-item__img-wrapper">
-                                        <img loading="lazy" class="img-fluid" src="./assets/portfolio/portfolio-item-3-2.jpg" alt="Fake project image for demonstration purposes only">
-                                    </div>
-                                    <div class="portfolio-item__img-wrapper">
-                                        <img loading="lazy" class="img-fluid" src="./assets/portfolio/portfolio-item-3-3.jpg" alt="Fake project image for demonstration purposes only">
-                                    </div>
-                                </div>
-                                <div class="container">
-                                    <div class="portfolio-item__content">
-                                        <div class="portfolio-item__description">
-                                            <div class="line line--horizontal line--portfolio"></div>
-                                            <p class="portfolio-item__description-p">This is a fake text, it is used to fill some text area that doesn't have any content written yet. It simulates how the paragraph will look like. Remember to edit this content before publishing your project.</p>
-                                            <p class="bold">Skills</p>
-                                            <ul class="dash-list portfolio-item__description-list">
-                                                <li class="dash-list__item dash-list__item--inline">
-                                                    <span class="dash-list__dash" aria-hidden="true"></span> Desgin
-                                                </li>
-                                                <li class="dash-list__item dash-list__item--inline">
-                                                    <span class="dash-list__dash" aria-hidden="true"></span> Photography
-                                                </li>
-                                            </ul>
-                                            <a class="portfolio-item__link-icon button button--icon button--icon-default" href="#" aria-label="Open A super challenging fake project project">
-                                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px">
-                                                    <path d="M0 0h24v24H0z" fill="none" />
-                                                    <path
-                                                        d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" />
-                                                </svg>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- PORTFOLIO ITEM 4 -->
-                            <div class="swiper-slide portfolio-item">
-                                <div class="portfolio-item__content">
-                                    <div class="portfolio-item__header mt-3 mb-4">
-                                        <h3 class="portfolio-item__title" tabindex="-1">An award fake project</h3>
-                                        <div class="heading-5">
-                                            <span class="sr-only">Categories </span>
-                                            <span class="mr-2"><span
-                                                    aria-hidden="true">#</span><span>branding</span></span>
-                                            <span class="mr-2"><span
-                                                    aria-hidden="true">#</span><span>design</span></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="portfolio-item__imgs">
-                                    <div class="portfolio-item__img-wrapper">
-                                        <img loading="lazy" class="img-fluid" src="./assets/portfolio/portfolio-item-4-1.jpg" alt="Fake project image for demonstration purposes only">
-                                    </div>
-                                    <div class="portfolio-item__img-wrapper">
-                                        <img loading="lazy" class="img-fluid" src="./assets/portfolio/portfolio-item-4-2.jpg" alt="Fake project image for demonstration purposes only">
-                                    </div>
-                                    <div class="portfolio-item__img-wrapper">
-                                        <img loading="lazy" class="img-fluid" src="./assets/portfolio/portfolio-item-4-3.jpg" alt="Fake project image for demonstration purposes only">
-                                    </div>
-                                </div>
-                                <div class="container">
-                                    <div class="portfolio-item__content">
-                                        <div class="portfolio-item__description">
-                                            <div class="line line--horizontal line--portfolio"></div>
-                                            <p class="portfolio-item__description-p">This is a fake text, it is used to fill some text area that doesn't have any content written yet. It simulates how the paragraph will look like. Remember to edit this content before publishing your project.</p>
-                                            <p class="bold">Skills</p>
-                                            <ul class="dash-list portfolio-item__description-list">
-                                                <li class="dash-list__item dash-list__item--inline">
-                                                    <span class="dash-list__dash" aria-hidden="true"></span> JavaScript
-                                                </li>
-                                                <li class="dash-list__item dash-list__item--inline">
-                                                    <span class="dash-list__dash" aria-hidden="true"></span> Ruby
-                                                </li>
-                                                <li class="dash-list__item dash-list__item--inline">
-                                                    <span class="dash-list__dash" aria-hidden="true"></span> HTML
-                                                </li>
-                                                <li class="dash-list__item dash-list__item--inline">
-                                                    <span class="dash-list__dash" aria-hidden="true"></span> CSS
-                                                </li>
-                                                <li class="dash-list__item dash-list__item--inline">
-                                                    <span class="dash-list__dash" aria-hidden="true"></span> WordPress
-                                                </li>
-                                            </ul>
-                                            <a class="portfolio-item__link-icon button button--icon button--icon-default" href="#" aria-label="Open An award fake project project">
-                                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px">
-                                                    <path d="M0 0h24v24H0z" fill="none" />
-                                                    <path
-                                                        d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" />
-                                                </svg>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- PORTFOLIO ITEM 5 -->
-                            <div class="swiper-slide portfolio-item">
-                                <div class="portfolio-item__content">
-                                    <div class="portfolio-item__header mt-3 mb-4">
-                                        <h3 class="portfolio-item__title" tabindex="-1">A Wonderful fake project</h3>
-                                        <div class="heading-5">
-                                            <span class="sr-only">Categories </span>
-                                            <span class="mr-2"><span
-                                                    aria-hidden="true">#</span><span>design</span></span>
-                                            <span class="mr-2"><span
-                                                    aria-hidden="true">#</span><span>website</span></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="portfolio-item__imgs">
-                                    <div class="portfolio-item__img-wrapper">
-                                        <img loading="lazy" class="img-fluid" src="./assets/portfolio/portfolio-item-5-1.jpg" alt="Fake project image for demonstration purposes only">
-                                    </div>
-                                    <div class="portfolio-item__img-wrapper">
-                                        <img loading="lazy" class="img-fluid" src="./assets/portfolio/portfolio-item-5-2.jpg" alt="Fake project image for demonstration purposes only">
-                                    </div>
-                                    <div class="portfolio-item__img-wrapper">
-                                        <img loading="lazy" class="img-fluid" src="./assets/portfolio/portfolio-item-5-3.jpg" alt="Fake project image for demonstration purposes only">
-                                    </div>
-                                </div>
-                                <div class="container">
-                                    <div class="portfolio-item__content">
-                                        <div class="portfolio-item__description">
-                                            <div class="line line--horizontal line--portfolio"></div>
-                                            <p class="portfolio-item__description-p">This is a fake text, it is used to fill some text area that doesn't have any content written yet. It simulates how the paragraph will look like. Remember to edit this content before publishing your project.</p>
-                                            <p class="bold">Skills</p>
-                                            <ul class="dash-list portfolio-item__description-list">
-                                                <li class="dash-list__item dash-list__item--inline">
-                                                    <span class="dash-list__dash" aria-hidden="true"></span> JavaScript
-                                                </li>
-                                                <li class="dash-list__item dash-list__item--inline">
-                                                    <span class="dash-list__dash" aria-hidden="true"></span> Ruby
-                                                </li>
-                                                <li class="dash-list__item dash-list__item--inline">
-                                                    <span class="dash-list__dash" aria-hidden="true"></span> HTML
-                                                </li>
-                                                <li class="dash-list__item dash-list__item--inline">
-                                                    <span class="dash-list__dash" aria-hidden="true"></span> CSS
-                                                </li>
-                                                <li class="dash-list__item dash-list__item--inline">
-                                                    <span class="dash-list__dash" aria-hidden="true"></span> WordPress
-                                                </li>
-                                            </ul>
-                                            <a class="portfolio-item__link-icon button button--icon button--icon-default" href="#" aria-label="Open A Wonderful fake project project">
-                                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px">
-                                                    <path d="M0 0h24v24H0z" fill="none" />
-                                                    <path
-                                                        d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" />
-                                                </svg>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- PORTFOLIO ITEM 6 -->
-                            <div class="swiper-slide portfolio-item">
-                                <div class="portfolio-item__content">
-                                    <div class="portfolio-item__header mt-3 mb-4">
-                                        <h3 class="portfolio-item__title" tabindex="-1">A big fake project</h3>
-                                        <div class="heading-5">
-                                            <span class="sr-only">Categories </span>
-                                            <span class="mr-2"><span
-                                                    aria-hidden="true">#</span><span>photo</span></span>
-                                            <span class="mr-2"><span
-                                                    aria-hidden="true">#</span><span>branding</span></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="portfolio-item__imgs">
-                                    <div class="portfolio-item__img-wrapper">
-                                        <img loading="lazy" class="img-fluid" src="./assets/portfolio/portfolio-item-6-1.jpg" alt="Fake project image for demonstration purposes only">
-                                    </div>
-                                    <div class="portfolio-item__img-wrapper">
-                                        <img loading="lazy" class="img-fluid" src="./assets/portfolio/portfolio-item-6-2.jpg" alt="Fake project image for demonstration purposes only">
-                                    </div>
-                                    <div class="portfolio-item__img-wrapper">
-                                        <img loading="lazy" class="img-fluid" src="./assets/portfolio/portfolio-item-6-3.jpg" alt="Fake project image for demonstration purposes only">
-                                    </div>
-                                </div>
-                                <div class="container">
-                                    <div class="portfolio-item__content">
-                                        <div class="portfolio-item__description">
-                                            <div class="line line--horizontal line--portfolio"></div>
-                                            <p class="portfolio-item__description-p">This is a fake text, it is used to fill some text area that doesn't have any content written yet. It simulates how the paragraph will look like. Remember to edit this content before publishing your project.</p>
-                                            <p class="bold">Skills</p>
-                                            <ul class="dash-list portfolio-item__description-list">
-                                                <li class="dash-list__item dash-list__item--inline">
-                                                    <span class="dash-list__dash" aria-hidden="true"></span> PHP
-                                                </li>
-                                                <li class="dash-list__item dash-list__item--inline">
-                                                    <span class="dash-list__dash" aria-hidden="true"></span> HTML
-                                                </li>
-                                                <li class="dash-list__item dash-list__item--inline">
-                                                    <span class="dash-list__dash" aria-hidden="true"></span> CSS
-                                                </li>
-                                            </ul>
-                                            <a class="portfolio-item__link-icon button button--icon button--icon-default" href="#" aria-label="Open A big fake project project">
-                                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px">
-                                                    <path d="M0 0h24v24H0z" fill="none" />
-                                                    <path
-                                                        d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" />
-                                                </svg>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <footer class="portfolio-nav">
-                <button type="button" aria-label="Previous portfolio item" aria-controls="portfolio-modal" class="button button--icon button--icon-default button--carousel portfolio-nav__button--prev">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24">
-                        <path d="M14.5,20.4l1.4-1.4l-7-7l7-7l-1.4-1.4L6.1,12L14.5,20.4z" />
-                    </svg>
-                </button>
-                <div class="portfolio-nav__button--close portfolio-nav__button--mobile">
-                    <button aria-label="Close Portfolio Modal" class="button button--icon button--icon-default">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24">
-                            <path d="M0 0h24v24H0z" fill="none" />
-                            <path
-                                d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" />
-                        </svg>
-                    </button>
-                </div>
-                <button type="button" aria-label="Next portfolio item" aria-controls="portfolio-modal" class="button button--icon button--icon-default button--carousel portfolio-nav__button--next">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24">
-                        <path d="M9.5,3.6L8.1,5l7,7l-7,7l1.4,1.4l8.4-8.4L9.5,3.6z" />
-                    </svg>
-                </button>
-                <div class="portfolio-nav__button--close portfolio-nav__button--desktop">
-                    <button aria-label="Close Portfolio Modal" class="button button--icon button--icon-default">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24">
-                            <path d="M0 0h24v24H0z" fill="none" />
-                            <path
-                                d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" />
-                        </svg>
-                    </button>
-                    <small>esc</small>
-                </div>
-            </footer>
-        </div>
-        <!-- END PORTFOLIO MODAL -->
 
         <!-- SITE FOOTER -->
         <footer id="site-footer" class="site-footer">
@@ -1101,6 +702,12 @@
         }
 
         loadLazyImages('img.lazyimage');
+
+        function copyToClipboard() {
+            navigator.clipboard.writeText(
+                "mDMEXEcE6RYJKwYBBAHaRw8BAQdArjWwk3FAqyiFbFBKT4TzXcVBqPTB3gmzlC/Ub7O1u120JkFsaWNlIExvdmVsYWNlIDxhbGljZUBvcGVucGdwLmV4YW1wbGU+iJAEExYIADgCGwMFCwkIBwIGFQoJCAsCBBYCAwECHgECF4AWIQTrhbtfozp14V6UTmPyMVUMT0fjjgUCXaWfOgAKCRDyMVUMT0fjjukrAPoDnHBSogOmsHOsd9qGsiZpgRnOdypvbm+QtXZqth9rvwD9HcDC0tC+PHAsO7OTh1S1TC9RiJsvawAfCPaQZoed8gK4OARcRwTpEgorBgEEAZdVAQUBAQdAQv8GIa2rSTzgqbXCpDDYMiKRVitCsy203x3sE9+eviIDAQgHiHgEGBYIACAWIQTrhbtfozp14V6UTmPyMVUMT0fjjgUCXEcE6QIbDAAKCRDyMVUMT0fjjlnQAQDFHUs6TIcxrNTtEZFjUFm1M0PJ1Dng/cDW4xN80fsn0QEA22Kr7VkCjeAEC08VSTeV+QFsmz55/lntWkwYWhmvOgE==iIGO"
+            );
+        }
     </script>
 
 </body>
