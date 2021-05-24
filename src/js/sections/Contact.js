@@ -54,7 +54,7 @@ export default class Contact {
     }
 
     onSubmitContactForm(event) {
-        event.preventDefault();
+        //event.preventDefault();
         this.clearAllFormErros();
         this.contactFormInvalidsFieldsList = [];
     
@@ -161,7 +161,7 @@ export default class Contact {
         setTimeout(() => {
             const fakeData = {
                 status: "success",
-                message: "Message has been sent :)",
+                message: "Thank you for reaching out, message sent!",
             };
             const formLiveRegionEl = getEl('#form-live-region');
 

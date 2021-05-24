@@ -1,7 +1,7 @@
 {
     "name": "zach",
     "version": "1.0.0",
-    "description": "Zach is a masters student at the university of bristol in the UK",
+    "description": "Zachary is a masters student at the university of bristol in the UK",
     "main": "./src/index.js",
     "scripts": {
         "start": "npx webpack serve --config webpack.dev.js",

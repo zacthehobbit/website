@@ -1,4 +1,4 @@
-# Zach the Hobbit
+# Zachary the Hobbit
 
 ## Installation and usage
 

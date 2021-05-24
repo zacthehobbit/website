@@ -1,7 +1,7 @@
 {
-    "name": "Zach the Hobbit",
-    "short_name": "Zach",
-    "description": "Zach is a masters student at the university of bristol in the UK",
+    "name": "Zachary the Hobbit",
+    "short_name": "Zachary",
+    "description": "Zachary is a masters student at the university of bristol in the UK",
     "icons": [{
             "src": "./assets/favicons/android-chrome-192x192.png",
             "sizes": "192x192",
