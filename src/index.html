@@ -572,7 +572,7 @@
                             </div>
                         </div>
                         <div class="fade-up-start" data-gc="fade-up">
-                            <form method="POST" enctype="multipart/form-data" class="form-contact" id="contact-form" data-netlify="true">
+                            <form method="POST" enctype="multipart/form-data" netlify-honeypot="verify" class="form-contact" id="contact-form" data-netlify="true">
                                 <span class="form-contact__surface"></span>
                                 <div class="form-group">
                                     <div id="form-live-region" class="form__message" role="alert" aria-atomic="true">
@@ -582,6 +582,10 @@
                                     <p>All fields are required.</p>
                                 </div>
                                 <div class="form-contact__two-columns">
+                                    <div class="form-group" style="display: none;">
+                                        <label class="form__label" for="form-verify">Verify</label>
+                                        <input class="form-control form__field" type="text" id="form-verify" name="verify" aria-required="true">
+                                    </div>
                                     <div class="form-group">
                                         <label class="form__label" for="form-name">Name</label>
                                         <input class="form-control form__field" type="text" id="form-name" name="name" aria-required="true">
